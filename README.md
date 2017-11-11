@@ -5,6 +5,12 @@
 [![ScrutinizerCI](https://img.shields.io/scrutinizer/g/intonate/tinker-zero.svg?style=flat-square)](https://scrutinizer-ci.com/g/intonate/tinker-zero)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/intonate/tinker-zero/blob/master/LICENSE)
 
+## Introduction
+
+Tinker Zero is a bridge that allows using [laravel/tinker](https://github.com/laravel/tinker) in your [Laravel Zero](http://laravel-zero.com) applications.
+
+**This is a community project and not an "official" one**
+
 ## Installation
 
 To get started simply run:
