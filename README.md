@@ -1,6 +1,8 @@
 # Tinker Zero
 
-![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)
+[![TravisCI](https://img.shields.io/travis/intonate/tinker-zero/master.svg?style=flat-square)](https://travis-ci.org/intonate/tinker-zero)
+[![StyleCI](https://styleci.io/repos/110322700/shield)](https://styleci.io/repos/110322700)
+[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/intonate/tinker-zero/blob/master/LICENSE)
 
 ## Installation
 
@@ -10,7 +12,7 @@ To get started simply run:
 composer require intonate/tinker-zero
 ```
 
-Then register the `Intonate\TinkerZero\TinkerZeroServiceProvider`:
+And register `Intonate\TinkerZero\TinkerZeroServiceProvider` in your `config/app.php` file:
 
 ```php
 'providers' => [

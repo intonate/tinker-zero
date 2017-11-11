@@ -17,6 +17,6 @@ class TinkerZeroServiceProvider extends ServiceProvider
     {
         $this->app->singleton('command.tinker', Console\TinkerZeroCommand::class);
 
-        $this->commands(['command.tinker']);
+        $this->commands('command.tinker');
     }
 }
