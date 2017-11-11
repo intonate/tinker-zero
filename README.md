@@ -2,6 +2,7 @@
 
 [![TravisCI](https://img.shields.io/travis/intonate/tinker-zero/master.svg?style=flat-square)](https://travis-ci.org/intonate/tinker-zero)
 [![StyleCI](https://styleci.io/repos/110322700/shield)](https://styleci.io/repos/110322700)
+[![ScrutinizerCI](https://img.shields.io/scrutinizer/g/intonate/tinker-zero.svg?style=flat-square)](https://scrutinizer-ci.com/g/intonate/tinker-zero)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/intonate/tinker-zero/blob/master/LICENSE)
 
 ## Installation

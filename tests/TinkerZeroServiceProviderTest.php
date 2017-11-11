@@ -43,6 +43,6 @@ class TinkerZeroServiceProviderTest extends TestCase
     {
         $this->provider->register();
 
-        $this->assertInstanceOf(TinkerZeroCommand::class,  $this->app['command.tinker']);
+        $this->assertInstanceOf(TinkerZeroCommand::class, $this->app['command.tinker']);
     }
 }
