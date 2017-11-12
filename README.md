@@ -39,4 +39,4 @@ php your-app-name tinker
 
 ## License
 
-Tinker Zero is open-sourced software licensed under the [MIT license](https://github.com/laravel-zero/laravel-zero/blob/stable/LICENSE.md)
+Tinker Zero is open-sourced software licensed under the [MIT license](LICENSE.md).
