@@ -14,7 +14,7 @@ class TinkerZeroCommand extends TinkerCommand
      *
      * @override \Laravel\Tinker\Console\TinkerCommand
      *
-     * @return void
+     * @return int
      */
     public function handle()
     {
@@ -31,6 +31,8 @@ class TinkerZeroCommand extends TinkerCommand
         } finally {
             $loader->unregister();
         }
+
+        return 0;
     }
 
     /**
