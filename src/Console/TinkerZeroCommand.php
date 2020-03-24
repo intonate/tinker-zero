@@ -2,10 +2,10 @@
 
 namespace Intonate\TinkerZero\Console;
 
-use Psy\Shell;
-use Psy\Configuration;
 use Laravel\Tinker\ClassAliasAutoloader;
 use Laravel\Tinker\Console\TinkerCommand;
+use Psy\Configuration;
+use Psy\Shell;
 
 class TinkerZeroCommand extends TinkerCommand
 {
@@ -38,7 +38,7 @@ class TinkerZeroCommand extends TinkerCommand
     /**
      * @return \Psy\Configuration
      */
-    public function getConfig() : Configuration
+    public function getConfig(): Configuration
     {
         $config = new Configuration(['updateCheck' => 'never']);
         $config->getPresenter()->addCasters($this->getCasters());
@@ -49,7 +49,7 @@ class TinkerZeroCommand extends TinkerCommand
     /**
      * @return string
      */
-    protected function autoLoadClassMap() : string
+    protected function autoLoadClassMap(): string
     {
         return $this->getLaravel()->basePath().'/vendor/composer/autoload_classmap.php';
     }

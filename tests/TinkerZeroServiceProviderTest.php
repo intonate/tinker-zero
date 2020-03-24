@@ -2,9 +2,9 @@
 
 namespace Intonate\Tests;
 
-use Orchestra\Testbench\TestCase;
 use Intonate\TinkerZero\Console\TinkerZeroCommand;
 use Intonate\TinkerZero\TinkerZeroServiceProvider;
+use Orchestra\Testbench\TestCase;
 
 class TinkerZeroServiceProviderTest extends TestCase
 {
