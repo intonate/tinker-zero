@@ -1,16 +1,22 @@
 language: php
 
 php:
-  - 7.0
-  - 7.1
   - 7.2
+  - 7.3
+  - 7.4
+
+sudo: false
+
+cache:
+  directories:
+    - $HOME/.composer/cache
 
 before_script:
   - phpenv config-rm xdebug.ini
   - composer install --no-interaction --no-suggest --prefer-dist
 
 script:
-  - ./vendor/bin/phpunit
+  - vendor/bin/phpunit
 
 notifications:
   email:
