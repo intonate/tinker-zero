@@ -1,7 +1,17 @@
 {
     "name": "intonate/tinker-zero",
     "description": "Use laravel/tinker on your laravel-zero applications",
-    "keywords": ["tinker", "tinker-zero", "repl", "psysh", "laravel", "laravel-zero"],
+    "type": "library",
+    "keywords": [
+        "cli",
+        "console",
+        "laravel",
+        "laravel-zero",
+        "psysh",
+        "repl",
+        "tinker",
+        "tinker-zero"
+    ],
     "license": "MIT",
     "homepage": "https://github.com/laravel/tinker#readme",
     "support": {
@@ -19,8 +29,8 @@
         "laravel/tinker": "^1.0|^2.0"
     },
     "require-dev": {
-        "orchestra/testbench": "^4.0",
-        "phpunit/phpunit": "^8.4"
+        "orchestra/testbench": "^5.0|^7.0",
+        "phpunit/phpunit": "^8.4|^9.5"
     },
     "autoload": {
         "psr-4": {
