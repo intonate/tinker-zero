@@ -14,9 +14,8 @@ jobs:
       fail-fast: true
       matrix:
         php: ['7.2.5', '7.3', '7.4', '8.0', '8.1', 8.2', '8.3']
-        stability: [prefer-lowest, prefer-stable]
 
-    name: PHP ${{ matrix.php }} - ${{ matrix.stability }}
+    name: PHP ${{ matrix.php }}
 
     steps:
       - name: Set git to use LF
@@ -40,7 +39,7 @@ jobs:
         with:
           timeout_minutes: 2
           max_attempts: 4
-          command: composer update --${{ matrix.stability }} --no-interaction --no-progress --ansi
+          command: composer update --no-interaction --no-progress --ansi
 
       - name: Run Tests
         run: vendor/bin/phpunit
