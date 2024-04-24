@@ -1,7 +1,7 @@
 # Tinker Zero
 
 [![PHPUnit](https://github.com/intonate/tinker-zero/workflows/PHPUnit/badge.svg)](https://github.com/intonate/tinker-zero/actions?query=workflow:PHPUnit)
-[![StyleCI](https://github.styleci.io/repos/110322700/shield?style=plastic)](https://styleci.io/repos/110322700)
+[![StyleCI](https://github.styleci.io/repos/110322700/shield?style=flat)](https://styleci.io/repos/110322700)
 [![Licence](https://img.shields.io/packagist/l/intonate/tinker-zero)](LICENSE.md)
 [![Total Downloads](https://img.shields.io/packagist/dt/intonate/tinker-zero)](https://packagist.org/packages/intonate/tinker-zero)
 [![Latest Stable Version](https://img.shields.io/packagist/v/intonate/tinker-zero)](https://packagist.org/packages/intonate/tinker-zero)
