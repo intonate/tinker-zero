@@ -1,8 +1,12 @@
-# Tinker Zero
+<p align="center"><img src="/logo.svg" title="Tinker Zero" alt="Logo Tinker Zero"></p>
 
-[![TravisCI](https://img.shields.io/travis/intonate/tinker-zero/master.svg?style=flat-square)](https://travis-ci.org/intonate/tinker-zero)
-[![StyleCI](https://styleci.io/repos/110322700/shield)](https://styleci.io/repos/110322700)
-[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/intonate/tinker-zero/blob/master/LICENSE)
+<p align="center">
+  <a href="https://github.com/intonate/tinker-zero/actions/workflows/phpunit.yml?query=workflow:PHPUnit"><img src="https://github.com/intonate/tinker-zero/workflows/PHPUnit/badge.svg" alt="PHPUnit" /></a>
+  <a href="https://styleci.io/repos/110322700"><img src="https://github.styleci.io/repos/110322700/shield?style=flat" alt="StyleCI" /></a>
+  <a href="https://packagist.org/packages/intonate/tinker-zero"><img src="https://img.shields.io/packagist/dt/intonate/tinker-zero.svg" alt="Total Downloads" /></a>
+  <a href="https://packagist.org/packages/intonate/tinker-zero"><img src="https://img.shields.io/packagist/v/intonate/tinker-zero.svg?label=stable" alt="Latest Stable Version" /></a>
+  <a href="https://packagist.org/packages/intonate/tinker-zero"><img src="https://img.shields.io/packagist/l/intonate/tinker-zero.svg" alt="License" /></a>
+</p>
 
 This is a *community project* and not an official Laravel or Laravel Zero package
 
